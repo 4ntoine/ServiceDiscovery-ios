@@ -94,6 +94,7 @@
         
         _mode = ASMODE_UDP;
         _responseTimeoutMillis = 3 * 1000; // 3 sec
+        _delegateQueue = dispatch_get_main_queue(); // by default main queue is used
     }
     return self;
 }
