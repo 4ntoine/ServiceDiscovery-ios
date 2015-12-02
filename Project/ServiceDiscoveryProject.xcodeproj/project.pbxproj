@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5639F46A1C0EDC2E00C61C4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5639F4691C0EDC2E00C61C4F /* main.m */; };
+		5639F4721C0EDD2700C61C4F /* ServiceDiscoveryProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5639F4711C0EDD2700C61C4F /* ServiceDiscoveryProject.m */; };
+		B1C42F1A60373144D51094B2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0141E0829EFEA9107919EAA2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5639F4641C0EDC2E00C61C4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0141E0829EFEA9107919EAA2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DE7C85590D3B0FA9B116DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5639F4661C0EDC2E00C61C4F /* ServiceDiscoveryProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ServiceDiscoveryProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		5639F4691C0EDC2E00C61C4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5639F4701C0EDD2700C61C4F /* ServiceDiscoveryProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDiscoveryProject.h; sourceTree = "<group>"; };
+		5639F4711C0EDD2700C61C4F /* ServiceDiscoveryProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDiscoveryProject.m; sourceTree = "<group>"; };
+		7F07256E7E4111964BD7EA2C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5639F4631C0EDC2E00C61C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C42F1A60373144D51094B2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A4E6F598BD6413697A40142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0141E0829EFEA9107919EAA2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5639F45D1C0EDC2E00C61C4F = {
+			isa = PBXGroup;
+			children = (
+				5639F4681C0EDC2E00C61C4F /* ServiceDiscoveryProject */,
+				5639F4671C0EDC2E00C61C4F /* Products */,
+				DDC7235C7933CE40BFF28330 /* Pods */,
+				4A4E6F598BD6413697A40142 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5639F4671C0EDC2E00C61C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5639F4661C0EDC2E00C61C4F /* ServiceDiscoveryProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5639F4681C0EDC2E00C61C4F /* ServiceDiscoveryProject */ = {
+			isa = PBXGroup;
+			children = (
+				5639F4691C0EDC2E00C61C4F /* main.m */,
+				5639F4701C0EDD2700C61C4F /* ServiceDiscoveryProject.h */,
+				5639F4711C0EDD2700C61C4F /* ServiceDiscoveryProject.m */,
+			);
+			path = ServiceDiscoveryProject;
+			sourceTree = "<group>";
+		};
+		DDC7235C7933CE40BFF28330 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18DE7C85590D3B0FA9B116DE /* Pods.debug.xcconfig */,
+				7F07256E7E4111964BD7EA2C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5639F4651C0EDC2E00C61C4F /* ServiceDiscoveryProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5639F46D1C0EDC2E00C61C4F /* Build configuration list for PBXNativeTarget "ServiceDiscoveryProject" */;
+			buildPhases = (
+				BE27ECA1A449589375E8897A /* Check Pods Manifest.lock */,
+				5639F4621C0EDC2E00C61C4F /* Sources */,
+				5639F4631C0EDC2E00C61C4F /* Frameworks */,
+				5639F4641C0EDC2E00C61C4F /* CopyFiles */,
+				FD2B5D1CD4E2B3695666E326 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServiceDiscoveryProject;
+			productName = ServiceDiscoveryProject;
+			productReference = 5639F4661C0EDC2E00C61C4F /* ServiceDiscoveryProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5639F45E1C0EDC2E00C61C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Anton Smirnov";
+				TargetAttributes = {
+					5639F4651C0EDC2E00C61C4F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 5639F4611C0EDC2E00C61C4F /* Build configuration list for PBXProject "ServiceDiscoveryProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5639F45D1C0EDC2E00C61C4F;
+			productRefGroup = 5639F4671C0EDC2E00C61C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5639F4651C0EDC2E00C61C4F /* ServiceDiscoveryProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE27ECA1A449589375E8897A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2B5D1CD4E2B3695666E326 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5639F4621C0EDC2E00C61C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5639F4721C0EDD2700C61C4F /* ServiceDiscoveryProject.m in Sources */,
+				5639F46A1C0EDC2E00C61C4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5639F46B1C0EDC2E00C61C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5639F46C1C0EDC2E00C61C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5639F46E1C0EDC2E00C61C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DE7C85590D3B0FA9B116DE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5639F46F1C0EDC2E00C61C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F07256E7E4111964BD7EA2C /* Pods.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5639F4611C0EDC2E00C61C4F /* Build configuration list for PBXProject "ServiceDiscoveryProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5639F46B1C0EDC2E00C61C4F /* Debug */,
+				5639F46C1C0EDC2E00C61C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5639F46D1C0EDC2E00C61C4F /* Build configuration list for PBXNativeTarget "ServiceDiscoveryProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5639F46E1C0EDC2E00C61C4F /* Debug */,
+				5639F46F1C0EDC2E00C61C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5639F45E1C0EDC2E00C61C4F /* Project object */;
+}
