@@ -202,7 +202,7 @@
     
     NSError *error;
     if (![socket bindToPort:_multicastPort error:&error]) {
-        NSLog(@"Failed to bind to port %i: %@", _responsePort, error);
+        NSLog(@"Failed to bind to port %i: %@", _multicastPort, error);
         [socket close];
         
         dispatch_async(_delegateQueue, ^{
