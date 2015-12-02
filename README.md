@@ -68,12 +68,13 @@ See `Project/` for more information. Average discovery time in my home network i
 
 Just use `CocoaPod`:
 
-1. add to your project 'Podfile'
+1. clone `ASServiceDiscovery-ios` repo:
+> git clone https://github.com/4ntoine/ServiceDiscovery-ios
 
-> pod 'ASServiceDiscovery'
+2. add to your project 'Podfile':
+> pod 'ASServiceDiscovery', path := '(path to cloned repo 'ASServiceDiscovery.podspec' file)'
 
-2. install pod:
-
+3. install pod:
 > pod install
 
 ## Implementations
