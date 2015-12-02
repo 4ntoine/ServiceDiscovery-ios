@@ -1,0 +1,29 @@
+
+// java
+option java_package = "name.antonsmirnov.discovery";
+option java_outer_classname = "Dto";
+
+// obj-c
+import "google/protobuf/objectivec-descriptor.proto";
+option (google.protobuf.objectivec_file_options).class_prefix = "ASDto";
+option (google.protobuf.objectivec_file_options).relax_camel_case = true;
+
+// request
+message ServiceRequest {
+    enum Mode {
+        TCP = 0;
+        UDP = 1;
+    }
+
+    required string type = 1;  // service type
+    required int32 port  = 2;  // client port to send response
+    required Mode mode   = 3;  // response mode
+}
+
+// response
+message ServiceResponse {
+    required int32 port    = 1;  // service port
+    required string type   = 2;  // service type
+    optional string title  = 3;  // service title
+    optional bytes payload = 4;  // service payload
+}

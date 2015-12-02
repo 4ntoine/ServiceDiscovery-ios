@@ -1,0 +1,1 @@
+protoc --objc_out=../Classes --proto_path=. discovery.proto
