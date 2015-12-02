@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ASServiceDiscovery"
-  s.version      = "1.3"
+  s.version      = "1.3.1"
   s.summary      = "Service Discovery"
   s.description  = " Simple Service Discovery (similar to WS-Discovery) for iOS"
 
