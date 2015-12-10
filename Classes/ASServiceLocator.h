@@ -38,6 +38,7 @@
 @property int responsePort;
 @property int responseTimeoutMillis;
 @property ASMode mode;
+@property NSTimeInterval sendRequestDelay; // delay after start listening for response and request sending
 
 - (instancetype) initWithMulticastGroup:(NSString*)multicastGroup
                        andMulticastPort:(int)multicastPort

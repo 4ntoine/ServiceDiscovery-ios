@@ -171,7 +171,7 @@
     
     // event 'started'
     dispatch_async(_delegateQueue, ^{
-        NSLog(@"Started to publish");
+        NSLog(@"Started to discover");
         [_delegate didStartDiscovery];
     });
     
@@ -227,6 +227,7 @@
                 port:_multicastPort
          withTimeout:0
                  tag:0];
+    [socket closeAfterSending];
     
     NSLog(@"Request sent");
     
@@ -263,6 +264,10 @@
     // prepare to receive response
     [self startListening];
     
+    // sometime some delay may be needed (to start listetning actually or smth)
+    if (_sendRequestDelay > 0)
+        [NSThread sleepForTimeInterval:_sendReceiveDelay];
+
     // send request
     if (![self sendRequest]) {
         
