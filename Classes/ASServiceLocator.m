@@ -95,6 +95,7 @@
         _mode = ASMODE_UDP;
         _responseTimeoutMillis = 3 * 1000; // 3 sec
         _delegateQueue = dispatch_get_main_queue(); // by default main queue is used
+        _sendRequestDelay = 0;
     }
     return self;
 }
@@ -266,7 +267,7 @@
     
     // sometime some delay may be needed (to start listetning actually or smth)
     if (_sendRequestDelay > 0)
-        [NSThread sleepForTimeInterval:_sendReceiveDelay];
+        [NSThread sleepForTimeInterval:_sendRequestDelay];
 
     // send request
     if (![self sendRequest]) {
