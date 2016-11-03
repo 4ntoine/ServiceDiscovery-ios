@@ -72,7 +72,7 @@ Just use `CocoaPod`:
 > git clone https://github.com/4ntoine/ServiceDiscovery-ios
 
 2. add to your project 'Podfile':
-> pod 'ASServiceDiscovery', path := '(path to cloned repo 'ASServiceDiscovery.podspec' file)'
+> pod 'ASServiceDiscovery', :path => '(path to cloned repo 'ASServiceDiscovery.podspec' file)'
 
 3. install pod:
 > pod install
